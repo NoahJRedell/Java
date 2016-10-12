@@ -20,3 +20,19 @@ class Array2 {
 			ia[4] = -4;
 			ia[5] = -8;
 			ia[6] = -4;
+			ia[7] = -8;
+			ia[8] = -4;
+			ia[9] = -8;
+			
+			System.out.println("Array unsorted\n");
+      for (i = 0; i <=11; i++){
+        System.out.print(ia[i]+" ");
+      }
+      System.out.print("\nArray sorted\n");
+      Arrays.sort(ia);
+      for (i = 0; i <=11; i++){
+        System.out.print(ia[i]+" ");
+      }
+      System.out.print();
+   }
+}
